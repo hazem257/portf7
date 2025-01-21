@@ -411,6 +411,7 @@ article .icon {
 height: auto;
 display:flex;
 align-items: center;
+width: 100%;
 
 }
 
@@ -418,7 +419,9 @@ align-items: center;
   width: 100%;
   height:50vh;
   margin-top: 10px;
-  border-radius: 30px
+  border-radius: 30px;
+  border-color: rgb(110, 9, 9);
+  border-width: 5px;
 
 }
 
