@@ -401,7 +401,22 @@ article .icon {
   color: aliceblue;
   
 }
-
+.btn7{
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif ;
+  cursor: pointer;
+  border-color: #00ff15;
+}
+.btn7:hover{
+background-color: #29ad34;
+color: rgb(255, 255, 255);
+border-color: black;
+}
 .sara2{
   display: none;
   width: 100%;
