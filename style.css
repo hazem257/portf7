@@ -495,3 +495,8 @@ footer {
 footer p {
   text-align: center;
 }
+.btn1{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
