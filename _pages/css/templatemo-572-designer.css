@@ -1571,16 +1571,16 @@ section.contact-us-page .right-info ul li span {
   justify-content: space-between;
 }
 .btn4{
-  margin-top: 3px;
+  margin-top: 5px;
   margin-bottom: 3px;
   padding-right: 5px;
   height: 6vh;
-  width: 30%;
+  width: 50%;
   border-radius: 5rem;
   cursor: pointer;
   background-color: #fafafa;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 .btn4 a {
   color: #161515;
