@@ -1599,4 +1599,8 @@ h1{
  color: blue;
 
 }
+video{
+  border-radius: 2rem;
+  border: #ff565b solid 4px;
+}
 /*audio*/
