@@ -519,6 +519,7 @@ footer p {
   color: whitesmoke;
   align-items:center ;
   text-align: center;
+  height: 10%;
   
 }
 .left{
@@ -527,7 +528,7 @@ footer p {
   font: bold;
   font-size: 20px;
   color: #000957;
-  padding: 5%;
+  padding: 2%;
   background-color: #ebf1ec;
 }
 .right{
@@ -535,6 +536,6 @@ footer p {
   cursor: pointer;
   font: bold;
   font-size: 20px;
-  padding: 5%;
+  padding: 2%;
   color: red;
 }
