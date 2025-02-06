@@ -510,7 +510,7 @@ footer p {
   flex-direction: column;
 }
 .tasbih-1{
-  width: 60%;
+  width: 100%;
   background-color: #6c17f5;
   height: fit-content;
   display: flex;
@@ -518,6 +518,7 @@ footer p {
   justify-content: space-between;
   color: whitesmoke;
   align-items:center ;
+  text-align: center;
   
 }
 .left{
@@ -526,7 +527,7 @@ footer p {
   font: bold;
   font-size: 20px;
   color: #000957;
-  padding: 12px;
+  padding: 5%;
   background-color: #ebf1ec;
 }
 .right{
@@ -534,6 +535,6 @@ footer p {
   cursor: pointer;
   font: bold;
   font-size: 20px;
-  padding: 12px;
+  padding: 5%;
   color: red;
 }
