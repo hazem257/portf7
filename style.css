@@ -500,3 +500,40 @@ footer p {
   background-color: white;
   cursor: pointer;
 }
+/*
+
+*/
+.tasbih{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tasbih-1{
+  width: 60%;
+  background-color: #6c17f5;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: whitesmoke;
+  align-items:center ;
+  
+}
+.left{
+  width: 15%;
+  cursor: pointer;
+  font: bold;
+  font-size: 20px;
+  color: #000957;
+  padding: 12px;
+  background-color: #ebf1ec;
+}
+.right{
+  width: 15%;
+  cursor: pointer;
+  font: bold;
+  font-size: 20px;
+  padding: 12px;
+  color: red;
+}
