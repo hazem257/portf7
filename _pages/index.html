@@ -41,7 +41,6 @@
     </div>
   </nav>
   <section class="container">
-  
     <div class="search-form">
       <div class="container">
           <div class="row">
@@ -123,14 +122,25 @@
       <h1 class="s2">اختر أحد القنوات</h1>
     </center>
     <div class="btn-main">
-      <button class="btn4"><a class="s1" href="javascript:void()"onclick="playLive('https://win.holol.com/live/quran/playlist.m3u8')">قناة القران الكريم</a></button>
+      <button class="btn4"><a class="s1" href="javascript:void()"onclick="playLive('https://win.holol.com/live/quran/playlist.m3u8')">قناة القرآن الكريم</a></button>
       <button class="btn4"><a class="s1" href="javascript:void()"onclick="playLive('https://win.holol.com/live/sunnah/playlist.m3u8')">قناة السنة النبوية</a></button>
     </div>
+    <!--quran-->
 <video width="100%" controls id="liveVideo">
   <source src="" type="video/mp4">
   <source src="" type="video/ogg">
   Your browser does not support the video tag .
 </video>
+
+  </section>
+  <section class="tasbih">
+  <h1>الــســبــحــة</h1>
+
+  <div class="tasbih-1">
+    <button class="right" id="plus" onclick="plus_1()">+</button>
+    <h2 id="phrase">سبحان الله</h2>
+    <button class="left" id="counter" >0</button>
+  </div>
   </section>
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
@@ -176,7 +186,7 @@
     </div>
   </section>
   <footer>
-<nav>
+    <nav>
       <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="../index.html">Home</a></li>
@@ -187,11 +197,30 @@
     </nav>
     <p  style="color: #18a; font: bold;">Copyright <span style="color: rgb(0, 0, 0); font: bolder;">&#169;</span>  2025 Hazem . All Rights Reserved.</p>
   </footer>
+  <script>
+let count = 0;
+let phrases = ["سبحان الله", "الحمد لله","لا اله الا الله ", "الله أكبر"," رب اغفر لي"," أستغفر الله"," لا حول ولا قوة إلا بالله"," اللهمَّ إنك عفوٌّ تُحبُّ العفوَ فاعفُ عنِّي"," سبحان الله وبحمده عدد خلقه ورضا نفسه وزنة عرشه ومداد كلماته"];
+let phraseIndex = 0;
+
+function plus_1() {
+    count++;
+    document.getElementById("counter").textContent = count;
+
+    // تغيير العبارة كل 100 عدّة
+    if (count === 100) {
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        document.getElementById("phrase").textContent = phrases[phraseIndex];
+        count = 0;
+    }
+}
+
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="/script.js"></script>
   <script src="/_pages/script.js"></script>
+  <script src="/_pages/index.js"></script>
 </body>
 </html>
